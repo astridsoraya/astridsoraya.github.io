@@ -1433,8 +1433,13 @@ img {
 
 .img-responsive {
   display: block;
-  max-width: 100%;
-  height: auto;
+  width: 700px;
+  height: 200px;
+  overflow: hidden; 
+}
+
+.img-responsive img{
+  width: 100%;
 }
 
 .img-rounded {
